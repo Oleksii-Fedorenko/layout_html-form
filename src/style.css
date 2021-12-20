@@ -1,1 +1,11 @@
-/* styles go here */
+.form_fieldset {
+  margin: 2px 2px 20px;
+}
+
+.form-fild {
+  padding: 0 0 10px;
+}
+
+.form-fild:last-child {
+  padding: 0;
+}
