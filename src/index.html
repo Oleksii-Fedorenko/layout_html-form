@@ -11,10 +11,10 @@
   </head>
 
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post" onsubmit="onSubmit()">
       <fieldset class="form_fieldset">
         <legend>Personal information</legend>
-        <div class="form-fild">
+        <div class="form-field">
           <label for="secondName">Surname:</label>
           <input
             type="text"
@@ -23,7 +23,7 @@
           >
         </div>
 
-        <div class="form-fild">
+        <div class="form-field">
           <label for="firstName">Name</label>
           <input
             type="text"
@@ -32,7 +32,7 @@
           >
         </div>
 
-        <div class="form-fild">
+        <div class="form-field">
           <label for="age">How old are You?</label>
           <input
             type="number"
@@ -44,7 +44,7 @@
           >
         </div>
 
-        <div class="form-fild">
+        <div class="form-field">
           <label for="birthDay">Full date of birth:</label>
           <input
             type="date"
@@ -53,7 +53,7 @@
           >
         </div>
 
-        <div class="form-fild">
+        <div class="form-field">
           <label for="terms">I accept the term of the agreement</label>
           <input
             type="checkbox"
@@ -66,17 +66,18 @@
       <fieldset class="form_fieldset">
         <legend>Registration</legend>
 
-        <div class="form-fild">
+        <div class="form-field">
           <label for="email">E-mail:</label>
           <input
             type="email"
             name="email"
             id="email"
             required
-            placeholder="email@example.com">
+            placeholder="email@example.com"
+          >
         </div>
 
-        <div class="form-fild">
+        <div class="form-field">
           <label for="password">Password:</label>
           <input
             type="password"
@@ -93,7 +94,7 @@
       <fieldset class="form_fieldset">
         <legend>An interesting fact about you!</legend>
 
-        <div class="form-fild">
+        <div class="form-field">
           Do you love cats?
 
           <label for="agree">
@@ -115,7 +116,7 @@
           </label>
         </div>
 
-        <div class="form-fild">
+        <div class="form-field">
           <label for="color">What is your favorite color?</label>
           <input
             type="color"
@@ -124,7 +125,7 @@
           >
         </div>
 
-        <div class="form-fild">
+        <div class="form-field">
           <label for="sleepTime">What time do you go to bed?</label>
           <input
             type="time"
@@ -134,8 +135,8 @@
           >
         </div>
 
-        <div class="form-fild">
-          <label for="cars" >
+        <div class="form-field">
+          <label for="cars">
             What are your favorite brand of car?
 
             <select multiple name="car" id="cars">
@@ -148,7 +149,7 @@
 
 
 
-        <div class="form-fild">
+        <div class="form-field">
           <label for="measure">How do you rate our work?</label>
           <input
             type="range"
@@ -163,8 +164,8 @@
       <fieldset class="form_fieldset">
         <legend>Additional info:</legend>
 
-        <div class="form-fild">
-          <label for="comment" class="form-fild">
+        <div class="form-field">
+          <label for="comment" class="form-field">
             Comments:
             <textarea name="comment" id="comment"></textarea>
           </label>
@@ -172,7 +173,7 @@
 
 
 
-        <div class="form-fild">
+        <div class="form-field">
           <label for="feedback" >
             Would you recommend us?
           </label>
